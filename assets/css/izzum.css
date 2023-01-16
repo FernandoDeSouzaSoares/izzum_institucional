@@ -12,3 +12,64 @@ body{
 	margin: 0;
     padding: 0;
 }
+/* ***************************posicionamento do logo da barra de navegação e roda pé************************** */
+header{	
+	margin: 1.6% 0px 0px 6.5%;
+	float:left;
+	
+}
+
+nav{	
+	border-radius: 20px;
+	background: rgba(229,228,227,0.30);/*cor de fundo dos botões da nav*/
+	margin: 0px 50% 0px 24.1%;
+	border: 2px solid orange;
+	width: 71.5%;
+    height: 100%;	
+}
+
+h1{
+	color:orange;
+}
+
+h2, h3, h4, h5, h6{
+	display:none;
+}
+span{
+	visibility:hidden;
+}
+.aux1{ 
+	background-color:rgba(229,228,227,0.68); /* cor e fundo do logo e barra de navegação*/
+	padding: 0 0 60px 0;
+	margin: 10px
+	
+}
+
+.aux {
+    padding: 50px 0 0 0; /* para abaixar um pouco a barra de nevegação*/
+	
+}
+
+.logo{
+	width:76%; /* tamanho do logo*/
+}
+/*ajustes do footer*/
+footer{
+	margin: 10px;
+	background-color:rgba(229,228,227,0.68);
+	width:95.4%;
+    height:100px;
+	padding:20px;
+}
+
+.imgfooter{
+	width:50px;
+	margin:10px 20px 10px 0px;
+	float:right;
+}
+
+.pfooter{
+	text-align:center;
+	margin:5% 0px 0px 0px
+}
+/* *****************************************fim do posicionamento da barra logo e roda pé*********************************** */
