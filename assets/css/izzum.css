@@ -73,3 +73,25 @@ footer{
 	margin:5% 0px 0px 0px
 }
 /* *****************************************fim do posicionamento da barra logo e roda pé*********************************** */
+
+/* **********************alinhamento do menu e animação***************************************** */
+ul.menu li  { 
+	display: inline;
+	margin:0% 2% 0% 0%; /*posiciona os botão da barra de navegação*/
+}
+
+.a1{
+    background-color: rgba(176,168,160,0.68); /*cor de fundo dos botões dos links*/
+    color: white;
+    padding: 1.6% 3.6%;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+	border-radius: 50px;
+	font-size: 111%;
+}
+
+.a1:hover{
+    background-color: orange;
+}
+/* ************************************fim da animação do menu************************************ */
