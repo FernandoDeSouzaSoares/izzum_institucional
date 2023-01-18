@@ -95,3 +95,64 @@ ul.menu li  {
     background-color: orange;
 }
 /* ************************************fim da animação do menu************************************ */
+
+/* ********************************CSS para página INICIO************************************* */
+
+.banner1{
+	position: relative;
+    width: 98.5%; /* ajuste do tamanho do banner*/
+    margin: auto;
+}
+
+/*css da formatação da animação da imagem do banner*/
+.imgbanner {
+	opacity: 1;
+	display: block;
+	width: 100%;
+	height: auto;
+	transition: .5s ease;
+	backface-visibility: hidden;
+}
+
+.middle {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%)
+}
+
+.banner1:hover .imgbanner {
+  opacity: 0.3; /*ajuste da opacidade da imagem*/
+}
+
+.banner1:hover .middle {
+  opacity: 1; /*ajuste da opacidade do hover*/
+}
+
+.textbanner {
+  background-color: orange; /*cor do texto*/
+  color: white; /*cor da letra*/
+  font-size: 50px; /*ajuste do tamanhoda letra*/
+  padding: 16px 32px; /*ajuste do tamanho do background do texto*/
+}
+/*fim do css da formatação da animação da imagem do banner*/
+
+/* formatação do H1 */
+.h1text{
+	text-align: center;
+	color: orange;
+
+}
+.articleinicio{
+	display: inline-block;
+	margin: 10px 0px 0px 5.3% ;
+	padding: 10px 10px 10px 10px;
+	background-color:  rgba(229,228,227,0.80);
+	/*tamanho do elemento*/
+	height: 330%;
+	width: 24%;
+}
+/* *****************************************************fim do css página de inicio******************************************** */
