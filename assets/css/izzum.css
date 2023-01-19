@@ -156,3 +156,35 @@ ul.menu li  {
 	width: 24%;
 }
 /* *****************************************************fim do css página de inicio******************************************** */
+
+/* ***************************************CSS PARA A PARGINA SOBRE******************************************** */
+.equipe{ /*tamanho da imagem dentro do quadro*/
+	width:100%;
+	height:65%;
+}
+
+.texto{/*texto embaixo das imagens*/
+	margin:1.6% 3% 1.6% 9.2%;
+    border: 2px solid #ccc;
+    float: left;
+    width:33.3%;
+    height:230px;
+}
+
+.tean{
+	display: inline-block;
+	width:42%;
+	text-align:left;
+}
+
+.history {
+	float:left;
+	margin:1% 5% 1% 2.4%;
+    width: 40%;
+	padding: 10px;
+}
+
+.paragrafo{
+	margin:50px 10px 70px 0px;
+}
+/* ***************************************FIM DO CSS PARGINA SOBRE******************************************** */
