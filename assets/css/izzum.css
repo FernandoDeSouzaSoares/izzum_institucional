@@ -227,3 +227,37 @@ ul.menu li  {
 	font-size: 25px;
 }
 /* **********************************************fim css portifolio********************************************* */
+
+/* *************************************CSS PARA PAGINA DE SERVIÇOS************************************ */
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+td, th {
+    border: 1px solid orange;
+    text-align: left;
+    padding: 8px;
+}
+
+tr:nth-child(even) {
+    background-color: #dddddd;
+}
+/***/
+.articletab {
+	display: inline-block;
+	width: 35%;
+	margin:0% 0% 0% 10%;
+}
+.asidetab{
+	width: 35%;
+	float:right;
+	margin:0% 10% 0% 10%;
+}
+.h1tabela{
+	width: auto;
+	font-size:120%;
+	margin: 2% 3% 2% 30%;
+}
+/* *************************************FIM DO CSS PARA PAGINA DE SERVIÇOS************************************ */
