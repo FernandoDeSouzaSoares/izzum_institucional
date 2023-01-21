@@ -261,3 +261,19 @@ tr:nth-child(even) {
 	margin: 2% 3% 2% 30%;
 }
 /* *************************************FIM DO CSS PARA PAGINA DE SERVIÇOS************************************ */
+
+/* **************INICIO DO CSS PARA PAGINA DE CONTATO*********************** */
+.articlecontato{
+    border-radius: 5px;
+    padding: 20px;
+}
+input[type=text], select{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    
+}
+/* **************FIM DO CSS PARA PAGINA DE CONTATO*********************** */
