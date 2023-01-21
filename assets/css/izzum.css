@@ -263,17 +263,34 @@ tr:nth-child(even) {
 /* *************************************FIM DO CSS PARA PAGINA DE SERVIÇOS************************************ */
 
 /* **************INICIO DO CSS PARA PAGINA DE CONTATO*********************** */
-.articlecontato{
-    border-radius: 5px;
-    padding: 20px;
-}
-input[type=text], select{
-    width: 100%;
-    padding: 12px 20px;
-    margin: 8px 0;
-    display: inline-block;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-    
-}
+.articlecontato input,
+.articlecontato button {
+	display: block;
+  }
+  form {	
+	margin: 2% auto 6% 10%;
+	width: 33.33%;	
+  }
+  .articlecontato input,
+  textarea {
+	width: 100%;
+	height: auto;
+	margin-bottom:8%;
+	padding: 3%;
+  }
+  .articlecontato button {
+	margin: 3% 0 0 0;
+	background: #fe9b00;
+	border: 0;
+	color: #fff;
+	width: 210px;
+	height: 38px;
+	font-size: 1.2em;
+	border-radius: 0.3em;
+	box-shadow: 0 2px 6.65px 0.35px rgba(0, 0, 0, 0.3);
+  }
+  .articlecontato h1{
+	text-align: center;
+  }
+
 /* **************FIM DO CSS PARA PAGINA DE CONTATO*********************** */
